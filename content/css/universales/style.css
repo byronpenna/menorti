@@ -1,3 +1,4 @@
+
 .marginNull{
 	margin: 0;
 }
@@ -10,6 +11,7 @@ body{
 	background: #e5e3e3;
 
 }
+
 .contenedorCuerpo{
 	width: 90%;
 	margin: 0 auto;
@@ -57,7 +59,7 @@ body{
 }
 .menuPrincipal{
 	background: #1564c0;
-	margin-top: 90px;
+	margin-top: 2%;
 	color: white;
 	text-align: center;
 
@@ -92,3 +94,21 @@ iframe{
 	margin-top: 25px;
 
 }
+/*HEADER*/
+.imgLogoHead{
+	width: 30%;
+}
+.containerLogoHead{
+	text-align: right;
+}
+.head{
+	margin-top: 3%;
+}
+.textoHead{
+	padding-left: 4%;
+	font-size: 2em;
+}
+.textoHead span{
+	display: block;
+}
+/**********************/
