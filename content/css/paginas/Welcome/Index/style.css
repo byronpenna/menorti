@@ -1,3 +1,17 @@
-body{
-	background: pink
-}
+.slider {
+  margin-bottom: 3%; }
+  .slider img {
+    width: 100%; }
+
+.tarjeta {
+  background: white;
+  width: 80%;
+  margin: 0 auto; }
+  .tarjeta .imagenRepresentativa {
+    background: brown;
+    height: 250px; }
+  .tarjeta .cuerpoTarjeta {
+    min-height: 400px;
+    background: white; }
+
+/*# sourceMappingURL=style.css.map */
