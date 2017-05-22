@@ -22,4 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('Welcome/Index.php');
 	}
+	public function creaciones(){
+		$this->load->view("Welcome/Creaciones.php");
+	}
 }

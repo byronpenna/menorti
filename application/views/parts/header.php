@@ -16,13 +16,13 @@
 	<div class="menuPrincipal">
 		<ul>
 			<li>
-				<a href="http://www.ritsasv.com">Inicio</a>
+				<a href=<?php echo site_url("Welcome/Index") ?> >Inicio</a>
 			</li>
 			<li>
 				<a href="http://www.ritsasv.com/cursos-gratuitos/">Sobre mi</a>
 			</li>
 			<li>
-				<a href="http://www.ritsasv.com/donaciones/">Creaciones</a>
+				<a href=<?php echo site_url("Welcome/Creaciones") ?> >Creaciones</a>
 			</li>
 			<li>
 				<a href="http://www.ritsasv.com/electronica/">Tienda</a>
