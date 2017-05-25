@@ -99,7 +99,7 @@ $this->load->view("parts/header.php");
 					</div>
 				</div>
 			</div>
-			<div class="row marginNull">
+			<div class="row marginNull Promociones adGoogle">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- Menorti 1 -->
 				<ins class="adsbygoogle"

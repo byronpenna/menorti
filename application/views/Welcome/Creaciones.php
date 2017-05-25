@@ -11,7 +11,12 @@
 	<?php 
 	$this->load->view("parts/header.php");
 	?>
-	
+	<div class="row marginNull tarjeta">
+		
+	</div>
+	<div class="row marginNull">
+		
+	</div>
 	<?php 
 		$this->load->view("parts/footer.php");
 	?>
