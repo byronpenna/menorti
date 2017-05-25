@@ -1,0 +1,31 @@
+.tarjeta {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 80%;
+  margin: 0 auto; }
+  .tarjeta .contenedorImg {
+    text-align: center; }
+    .tarjeta .contenedorImg .portada {
+      width: 80%; }
+  .tarjeta .cuerpoTarjeta {
+    background: white;
+    padding: 2%; }
+    .tarjeta .cuerpoTarjeta .footerTarjeta .izquierda {
+      text-align: left; }
+    .tarjeta .cuerpoTarjeta .footerTarjeta .derecha {
+      text-align: right; }
+    .tarjeta .cuerpoTarjeta .price {
+      font-weight: bold;
+      color: #e74c3c;
+      font-size: 1.5em; }
+    .tarjeta .cuerpoTarjeta .titulo {
+      font-weight: bold;
+      font-size: 1.5em;
+      border-bottom: solid 2px #00acff;
+      text-align: center;
+      margin-bottom: 2%;
+      padding-bottom: 1%; }
+    .tarjeta .cuerpoTarjeta .descripcion {
+      text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
