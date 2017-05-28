@@ -85,6 +85,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="row marginNull">
+		
+	</div>
 	<?php 
 		$this->load->view("parts/footer.php");
 	?>
