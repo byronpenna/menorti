@@ -6,18 +6,22 @@
   .tarjeta .contenedorImg {
     text-align: center; }
     .tarjeta .contenedorImg .portada {
-      width: 80%; }
+      width: 95%; }
   .tarjeta .cuerpoTarjeta {
     background: white;
     padding: 2%; }
-    .tarjeta .cuerpoTarjeta .footerTarjeta .izquierda {
-      text-align: left; }
-    .tarjeta .cuerpoTarjeta .footerTarjeta .derecha {
-      text-align: right; }
+    .tarjeta .cuerpoTarjeta .footerTarjeta {
+      margin-top: 3%; }
+      .tarjeta .cuerpoTarjeta .footerTarjeta .imgSocial {
+        width: 10%; }
+      .tarjeta .cuerpoTarjeta .footerTarjeta .izquierda {
+        text-align: left; }
+      .tarjeta .cuerpoTarjeta .footerTarjeta .derecha {
+        text-align: right; }
     .tarjeta .cuerpoTarjeta .price {
       font-weight: bold;
       color: #e74c3c;
-      font-size: 1.5em; }
+      font-size: 1.8em; }
     .tarjeta .cuerpoTarjeta .titulo {
       font-weight: bold;
       font-size: 1.5em;
