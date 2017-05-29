@@ -19,12 +19,12 @@
 				<a href=<?php echo site_url("Welcome/Index") ?> >Inicio</a>
 			</li>
 			<li>
-				<a href="http://www.ritsasv.com/cursos-gratuitos/">Sobre mi</a>
+				<a href=<?php echo site_url("Welcome/sobreMi") ?> >Sobre mi</a>
 			</li>
 			<li>
 				<a href=<?php echo site_url("Welcome/Creaciones") ?> >Creaciones</a>
 			</li>
-			<li>
+			<li >
 				<a href="http://www.ritsasv.com/electronica/">Tienda</a>
 			</li>
 		</ul>

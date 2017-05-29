@@ -52,9 +52,7 @@
 		<div class="col-lg-2">
 			<div class="contenedorImg row marginNull">
 				<img class="portada" src=<?php echo base_url("content/img/welcome/index/portada2.jpg") ?> >
-			
-			</div>
-						
+			</div>			
 		</div>
 		<div class="col-lg-10">
 			<div class="row marginNull cuerpoTarjeta">
@@ -79,7 +77,7 @@
 						</a>
 					</div>
 					<div class="col-lg-6 derecha">
-						<span class="price ">$19.99</span>
+						<span class="price">$19.99</span>
 					</div>
 				</div>
 			</div>

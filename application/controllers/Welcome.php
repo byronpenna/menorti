@@ -25,4 +25,7 @@ class Welcome extends CI_Controller {
 	public function creaciones(){
 		$this->load->view("Welcome/Creaciones.php");
 	}
+	public function sobreMi(){
+		$this->load->view("Welcome/SobreMi.php");
+	}
 }

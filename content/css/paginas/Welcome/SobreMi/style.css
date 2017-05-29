@@ -1,0 +1,18 @@
+.premisaAutor {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3%; }
+  .premisaAutor .detallePremisa {
+    background: white;
+    padding-top: 2%;
+    padding-bottom: 2%; }
+    .premisaAutor .detallePremisa .nombreAutor {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 3%; }
+  .premisaAutor .contenedorImg {
+    text-align: center; }
+    .premisaAutor .contenedorImg .imgAutor {
+      width: 50%; }
+
+/*# sourceMappingURL=style.css.map */
