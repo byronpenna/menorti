@@ -14,7 +14,7 @@
 	</style>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("content/css/paginas/Welcome/SobreMi/")."style.css"; ?> >
 </head>
-<body>
+<body>    fergerte
 	<?php 
 		$this->load->view("parts/header.php");
 	?>
