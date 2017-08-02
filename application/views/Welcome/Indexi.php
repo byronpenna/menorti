@@ -15,7 +15,7 @@
 		<p>Sitio oficial</p>
 		<h1>Leanen Menorti</h1>
 	</div>	
-	<div class="row marginNull verdeFuerte">
+	<div class="row marginNull verdeFuerte rowPrincipalBaner">
 		<div class="col-lg-offset-2 col-lg-8" >
 			<div class="libro">
 				<div class="pasta"></div>
@@ -37,6 +37,22 @@
 		<div class="row marginNull verdeClaro lineaCompra">
 			<div class="col-lg-offset-6 col-lg-3">
 				<a href="#" class="btn botonComprar btn-block">Comprar ahora</a>	
+			</div>
+		</div>
+	</div>
+	<div class="row marginNull negroMate rowSobreMi">
+		
+		<div class="col-lg-6 imagen">
+			<img src=<?php echo base_url("content/img/welcome/index/me.png") ?>>
+		</div>
+		<div class="col-lg-6 contenido">
+			<div class="titulo">Sobre mi</div>
+			<div class="cuerpo">
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+				Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+ 				odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+ 				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam 
 			</div>
 		</div>
 	</div>

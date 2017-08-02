@@ -4,6 +4,9 @@
 .verdeClaro {
   background: #29d9c2; }
 
+.negroMate {
+  background: #2f2933; }
+
 header nav {
   width: 60%;
   margin-top: 3%; }
@@ -37,6 +40,9 @@ header nav {
     padding-top: 3%;
     padding-bottom: 3%; }
 
+.rowPrincipalBaner {
+  padding-bottom: 5%; }
+
 .libro, .pasta {
   height: 400px; }
 
@@ -64,5 +70,23 @@ header nav {
     background: #c8c8c8;
     width: 10%;
     display: inline-block; }
+
+/*Sobre mi */
+.rowSobreMi {
+  color: #ffffa5; }
+  .rowSobreMi .imagen {
+    padding: 0; }
+    .rowSobreMi .imagen img {
+      width: 100%; }
+  .rowSobreMi .contenido .titulo {
+    text-transform: uppercase;
+    width: 40%;
+    border-bottom: solid 1px #ffffa5;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-bottom: 4%; }
+  .rowSobreMi .contenido .cuerpo {
+    width: 60%;
+    font-size: 1.8em; }
 
 /*# sourceMappingURL=stylei.css.map */
