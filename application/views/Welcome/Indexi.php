@@ -16,8 +16,11 @@
 		<h1>Leanen Menorti</h1>
 	</div>	
 	<div class="row marginNull verdeFuerte rowPrincipalBaner">
-		<div class="col-lg-offset-2 col-lg-8" >
-			<div class="libro">
+		<div class="col-lg-2 nav" direccion="0" >
+			<
+		</div>
+		<div class="col-lg-8 seccionLibros" >
+			<div class="libro actual">
 				<div class="pasta"></div>
 				<div class="contenido">
 					<div class="row marginNull head">
@@ -33,10 +36,36 @@
 					</div>
 				</div>
 			</div>
+			<div class="libro" style="display: none">
+				<div class="pasta"></div>
+				<div class="contenido">
+					<div class="row marginNull head">
+						<div class="row marginNull saga">
+							Romance de las rosas
+						</div>
+						<div class="row marginNull titulo">
+							Eternidad y obsesión
+						</div>	
+					</div>
+					<div class="portada">
+						<img src=<?php echo base_url("content/img/welcome/index/portada2.jpg") ?>>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-lg-2 nav" direccion='1' >
+			
 		</div>
 		<div class="row marginNull verdeClaro lineaCompra">
-			<div class="col-lg-offset-6 col-lg-3">
+			<div class="col-lg-2 nav text-right" direccion='0' style="font-size: 2em">
+				<
+			</div>
+			<div class="col-lg-offset-4 col-lg-3">
 				<a href="#" class="btn botonComprar btn-block">Comprar ahora</a>	
+			</div>
+			<div class="col-lg-2 nav text-right" direccion='1' style="font-size: 2em">
+				>
 			</div>
 		</div>
 	</div>
@@ -56,5 +85,7 @@
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" src=<?php echo base_url("content/js/paginas/index/functions.js")  ?> ></script>
+	<script type="text/javascript" src=<?php echo base_url("content/js/paginas/index/script.js")  ?> ></script>
 </body>
 </html>
