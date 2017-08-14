@@ -1,5 +1,12 @@
 $(document).ready(function(){
+	setInterval(
+		function(){ 
+			$(".navRight").click(); 
+		}, 
+		8000);
+	var clicknav = false;
 	$(document).on("click",".nav",function(){
+		$(this).disabled = true;
 		var direccion = $(this).attr("direccion");
 		var actual 	= $(".seccionLibros").find(".libro.actual");
 		var next = null;
@@ -20,13 +27,17 @@ $(document).ready(function(){
 			}
 		}
 		console.log(next)
-		if (next !== undefined){
-			actual.fadeOut("slow");
-			next.fadeIn("slow")
+		if (next !== undefined && !next.is(":visible")){
+			actual.fadeOut("slow",function(){
+				var url = next.find(".txtHDUrlCompra").val();
+				$(".botonComprar").attr("href",url);
+				next.fadeIn("slow");
+			});
 		}
 
 
 		$(".actual").removeClass("actual");
 		next.addClass("actual");
+		$(this).disabled = false;
 	})
 })

@@ -17,10 +17,11 @@
 	</div>	
 	<div class="row marginNull verdeFuerte rowPrincipalBaner">
 		<div class="col-lg-2 nav" direccion="0" >
-			<
+			
 		</div>
 		<div class="col-lg-8 seccionLibros" >
 			<div class="libro actual">
+				<input type="hidden" class="txtHDUrlCompra" value="https://www.bookdepository.com/Romance-de-Las-Rosas-Leonardo-E-Mendez/9781463357450">
 				<div class="pasta"></div>
 				<div class="contenido">
 					<div class="row marginNull head">
@@ -28,7 +29,7 @@
 							Romance de las rosas
 						</div>
 						<div class="row marginNull titulo">
-							Beso Inocente
+							Amor apasionado en cenizas.
 						</div>	
 					</div>
 					<div class="portada">
@@ -37,6 +38,7 @@
 				</div>
 			</div>
 			<div class="libro" style="display: none">
+				<input type="hidden" class="txtHDUrlCompra" value="https://www.bookdepository.com/Romance-de-Las-Rosas-Segundo-Libro-Eternidad-y-Obsesion-Leonardo-E-Mendez/9781463367886">
 				<div class="pasta"></div>
 				<div class="contenido">
 					<div class="row marginNull head">
@@ -58,14 +60,14 @@
 			
 		</div>
 		<div class="row marginNull verdeClaro lineaCompra">
-			<div class="col-lg-2 nav text-right" direccion='0' style="font-size: 2em">
-				<
+			<div class="col-lg-2 nav navLeft text-right" direccion='0' style="font-size: 2em">
+				<i class="fa fa-chevron-left" aria-hidden="true"></i>
 			</div>
 			<div class="col-lg-offset-4 col-lg-3">
-				<a href="#" class="btn botonComprar btn-block">Comprar ahora</a>	
+				<a href="https://www.bookdepository.com/Romance-de-Las-Rosas-Leonardo-E-Mendez/9781463357450" target="_blank" class="btn botonComprar btn-block">Comprar ahora</a>	
 			</div>
-			<div class="col-lg-2 nav text-right" direccion='1' style="font-size: 2em">
-				>
+			<div class="col-lg-2 nav navRight text-right" direccion='1' style="font-size: 2em">
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
 			</div>
 		</div>
 	</div>
@@ -77,11 +79,11 @@
 		<div class="col-lg-6 contenido">
 			<div class="titulo">Sobre mi</div>
 			<div class="cuerpo">
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-				Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
- 				odit aut fugit sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
- 				Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam 
+				Un espiritu celestial llamado Jovem Levid es enviado por Dios a la Tierra, antes del diluvio, para proteger a una mujer 
+				que sera la ascendencia de las primogenitas sagradas. 
+				Jovem Levid sacrifica sublimemente su sentir esencial, ofreciendo todo lo que existe en su corazon, para la proteccion de la ultima 
+				primogenita que nace de la anterior primogenita.
+				Los anos transcurren, y el espiritu celestial enviado cumple fielmente su mision en la Tierra; cuidando y protegiendo con su vida a la descendencia consagrada. 
 			</div>
 		</div>
 	</div>
